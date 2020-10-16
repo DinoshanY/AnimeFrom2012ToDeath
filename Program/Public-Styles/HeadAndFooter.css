@@ -1,0 +1,52 @@
+.header {
+	background-color: 			grey;
+	padding: 					20px;
+	text-align: 				center;
+	font-size: 					20px;
+	top: 0;
+}
+
+.footer {
+	position: 					fixed;
+	left: 						0;
+	bottom: 					0;
+	width: 						100%;
+	background-color: 			red;
+	color: 						white;
+	text-align: 				center;
+	z-index: 					2;
+}
+
+div.scroll{
+	margin-left:				25%;
+	padding:					1px 16px;
+	height:						1000px;
+}
+
+div.CallToA{
+	display:					block;
+	background-color: 			blue;
+	text-align: 				center;
+	color: 						white;
+	 position: 					absolute;
+	top: 						650px;
+	right: 						100px;
+	width: 						250px;
+	height: 					75px;
+	border: 					3px solid black;
+	list-style-type: 			none;
+	margin: 					0;
+	padding: 					0;
+	overflow: 					auto;
+}
+
+.CallToA a{
+	float: 						left;
+	width: 						210px;
+	height: 					35px;
+	color: 						orange;
+	text-align: 				center;
+	padding: 					20px 20px;
+	text-decoration: 			none;
+	font-size: 					17px;
+}
